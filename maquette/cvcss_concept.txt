@@ -1,0 +1,28 @@
+Concept:
+- L'utilisateur survole/clique sur les "cartes" pour faire apparaitre
+le contenu (v1)
+- Le dos de la carte évidemment sera une image en rapport avec ce qu'elle
+contient (v1)
+- En cliquant sur la carte, celle ci augmente un peu en taille, et sur
+l'image apparaît un masque avec son contenu (texte) et une option "voir
+la vidéo" // Responsive: pareil (v1)
+- En cliquant sur l'option vidéo, un player de moi qui explique cette
+section s'affiche // Responsive: pareil (v2)
+- L'utilisateur peut cliquer à nouveau sur la carte pour la remettre de
+dos // Responsive: pareil (v2)
+- Bouton call to action "hire me" qui informe mes coordonnées de contact,
+peut être qu'un pop-up s'affiche avec un "business card" ou quelque chose
+du genre (v1)
+- En cliquant sur ma photo le même pop-up de business card s'affiche
+aussi (v1)
+- Drapeau option français/anglais/portugais (v3)
+- En vue tablet je vais juste réduire un peu la taille des choses et
+resserrer les espaces (v1)
+- Background du CV: Soit une photo flouttée de moi soit une
+img copyfree (v1)
+- Header = masque de couleur différente avec transparence sur la
+bg img (v1)
+- Footer = bg couleur solide
+- Option large et +: texture en background sur les espaces blancs autour
+du cv (v1)
+- Possibilité de télécharger la version PDF
