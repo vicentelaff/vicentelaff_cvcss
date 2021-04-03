@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/images/fixed_bg.png);
+    background-image: url(/images/bg_mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -14,7 +14,7 @@ a {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vw;
+    font-size: 12vw;
     font-weight: 600;
     font-style: italic;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
@@ -23,7 +23,7 @@ h1 {
 
 h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2vw;
+    font-size: 6vw;
     font-weight: 600;
     font-style: italic;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
@@ -32,23 +32,25 @@ h4 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3vw;
+    font-size: 3.5vw;
     font-weight: 600;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     color: white;
 }
 
+.titre-section{
+    margin-top: 5rem;
+}
+
 /* =========================== SECTION METIERS =========================== */
 
 #container-metier {
-    height: 55vw;
+    height: 815px;
 }
 
 #section-icones-metier {
-    display: flex;
-    flex-direction: column;
-    font-size: 7vw;
+    font-size: 25vw;
 }
 
 .icones-metiers {
@@ -59,34 +61,35 @@ p {
 /* =========================== SECTION EXPERIENCES =========================== */
 
 #container-experiences {
-    height: 60vw;
+    height: 815px;
     background: #353535;
-    margin-top: 6vw;
 }
 
 #carousel-experiences {
-    width: 28vw;
-    margin-top: 2vw;
+    margin-top: 5rem;
+    width: 100%;
 }
+
+/* .carousel-caption{
+    background: #000;
+} */
 
 /* =========================== SECTION COMPETENCES =========================== */
 
 #container-competences {
-    margin-top: 5vw;
+    height: 815px;
 }
 
-#competences {
-    width: 70vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+#container-competences p{
+    font-size: 3vw;
 }
 
-.icones-competences {
-    margin: 2vw 3vw;
+#competences{
+    width: 85%;
 }
 
 .img-competences {
-    margin-bottom: 2vw;
+    margin-bottom: 1rem;
     width: 10vw;
 }
 
@@ -94,15 +97,37 @@ p {
 
 #container-education {
     padding-top: 7vw;
-    height: 75vw;
+    height: 815px;
     background: rgb(119, 66, 26);
     background: linear-gradient(0deg, rgba(119, 66, 26, 1) 0%, rgba(238, 132, 52, 1) 100%);
 }
 
 #section-formations{
-    margin: 5vw 0;
+    margin: 3rem 0;
 }
 
 .formations{
-    margin-bottom: 1vw;
+    height: 15vw;
+    margin-bottom: 1rem;
+}
+
+#section-langues{
+    margin-bottom: 4rem;
+}
+
+#embauche{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    color: white;
+}
+
+#pdf{
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: #0275d8;
 }
