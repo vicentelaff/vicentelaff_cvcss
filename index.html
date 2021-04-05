@@ -18,24 +18,24 @@
 <body>
     <!-- ======================= SECTION METIER ======================= -->
     <div id="container-metier"
-        class="d-flex flex-column flex-md-row justify-content-center align-items-center mx-auto col-11 col-md-6">
-        <div id="section-metier" class="me-2 me-md-5 mt-5">
-            <h1 class="titre-section text-center text-md-left">DANS MON MÉTIER JE SUIS...</h1>
-            <p id="descriptions" class="text-center text-md-left mt-3">... axé sur les aspects créatifs ainsi que
+        class="d-flex flex-column flex-xl-row justify-content-center align-items-center mx-auto col-11">
+        <div id="section-metier" class="mt-5 col-xl-6">
+            <h1 class="titre-section text-center text-xl-start">DANS MON MÉTIER<br>JE SUIS...</h1>
+            <p id="descriptions" class="text-center text-xl-start mt-3">... axé sur les aspects créatifs ainsi que
                 fonctionnels d'un projet digital.
                 Je mets en œuvre toutes mes compétences techniques afin de trouver la solution adéquate dans chaque
                 situation.</p>
         </div>
-        <div id="section-icones-metier" class="d-flex flex-row flex-md-column align-items-center text-center mt-3">
-            <i class="icones-metiers fas fa-palette mx-2 my-md-3"></i>
-            <i class="icones-metiers fas fa-bezier-curve mx-2 my-md-3"></i>
-            <i class="icones-metiers fas fa-pencil-ruler mx-2 my-md-3"></i>
+        <div id="section-icones-metier" class="d-flex flex-row flex-xl-column text-center mt-3 col-xl-2">
+            <i class="icones-metiers fas fa-palette mx-2 mx-md-4 mx-xl-0 my-xl-3"></i>
+            <i class="icones-metiers fas fa-bezier-curve mx-2 mx-md-4 mx-xl-0 my-xl-3"></i>
+            <i class="icones-metiers fas fa-pencil-ruler mx-2 mx-md-4 mx-xl-0 my-xl-3"></i>
         </div>
     </div>
 
     <!-- ======================= SECTION EXPERIENCES ======================= -->
-    <div id="container-experiences" class="d-flex flex-column align-items-center mx-auto col-12">
-        <h1 class="titre-section text-center">EXPÉRIENCES PERTINENTES</h1>
+    <div id="container-experiences" class="d-flex flex-column align-items-center col-12">
+        <h1 class="titre-section text-center pt-md-5">EXPÉRIENCES PERTINENTES</h1>
         <div id="carousel-experiences" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel-experiences" data-bs-slide-to="0" class="active"
@@ -73,9 +73,9 @@
     </div>
 
     <!-- ======================= SECTION COMPETENCES ======================= -->
-    <div id="container-competences" class="d-flex flex-column align-items-center text-center col-12">
-        <h1 class="titre-section">COMPÉTENCES</h1>
-        <div id="competences" class="d-flex flex-row flex-wrap align-items-center justify-content-evenly text-center mt-4">
+    <h1 class="titre-section text-center pt-md-5">COMPÉTENCES</h1>
+    <div id="container-competences" class="d-flex justify-content-evenly text-center col-12 col-xl-8">
+        <!-- <div class="competences text-center mt-4">
             <div class="icones-competences">
                 <img src="./images/Icon awesome-adobe.png" class="img-competences">
                 <p class="descriptions">Pack Adobe:<br>After Effects, XD.</p>
@@ -85,55 +85,65 @@
                 <p class="descriptions">Fondamentaux:<br>HTML/CSS, BootStrap,<br> ergonomie UI/UX.</p>
             </div>
             <div class="icones-competences">
-                <img src="./images/Icon ionic-logo-javascript.png" class="img-competences">
-                <p class="descriptions">Mobile:<br>JavaScript/Jquery, react<br> native/react.js, node.js/<br>express.js.
-                </p>
+                <img src="./images/Icon awesome-wordpress.png" class="img-competences">
+                <p class="descriptions">CMS e-commerce:<br>wordpress/<br>prestashop, dev wordpress<br>/woocommerce, dev
+                    <br>Prestashop.</p>
+            </div>
+        </div>
+        <div class="competences text-center mt-4">
+            <div class="icones-competences">
+                <img src="./images/Icon awesome-php.png" class="img-competences">
+                <p class="descriptions">PHP:<br>PHP/Mysql orienté<br> objet, Framework<br> PHP.</p>
             </div>
             <div class="icones-competences">
                 <img src="./images/Icon awesome-python.png" class="img-competences">
                 <p class="descriptions">Logique informatique:<br>Algorithmie, Python,<br> design pattern/UML.</p>
             </div>
             <div class="icones-competences">
-                <img src="./images/Icon awesome-php.png" class="img-competences">
-                <p class="descriptions">PHP:<br>PHP/Mysql orienté<br> objet, Framework<br> PHP.</p>
+                <img src="./images/Icon ionic-logo-javascript.png" class="img-competences">
+                <p class="descriptions">Mobile:<br>JavaScript/Jquery, react<br> native/react.js, node.js/<br>express.js.
+                </p>
             </div>
-            <div class="icones-competences">
-                <img src="./images/Icon awesome-wordpress.png" class="img-competences">
-                <p class="descriptions">CMS e-commerce:<br>wordpress/<br>prestashop, dev wordpress<br>/woocommerce, dev
-                    <br>Prestashop.</p>
-            </div>
-        </div>
+        </div> -->
+    </div>
     </div>
 
     <!-- ======================= SECTION EDUCATION ======================= -->
     <div id="container-education" class="d-flex flex-column align-items-center text-center col-12">
-        <h1 class="titre-section">FORMATIONS</h1>
-        <div id="section-formations">
-            <img src="./images/dc_logo.png" alt="" class="formations">
-            <h4 class="titres">Développement web et mobile, Bac +2</h4>
-            <p class="descriptions">Formation combinant enseignement des fondamentaux, mise en pratique et
-                accomgnements spécifiques.</p>
+        <h1 class="titre-section pt-md-2">FORMATIONS</h1>
+        <div class="col-xl-8">
+            <div id="section-formations">
+                <img src="./images/dc_logo.png" alt="" class="formations">
+                <h4 class="titres">Développement web et mobile, Bac +2</h4>
+                <p class="descriptions">Formation combinant enseignement des fondamentaux, mise en pratique et
+                    accompagnements spécifiques.</p>
+            </div>
+
+            <div id="section-langues" class="d-flex flex-row justify-content-evenly align-items-top">
+                <span class="langues">
+                    <i class="drapeaux">Brésil</i>
+                    <p class="niveau">Langue maternelle</p>
+                </span>
+
+                <span class="langues">
+                    <i class="drapeaux">France</i>
+                    <p class="niveau">Langue maternelle</p>
+                </span>
+
+                <span class="langues">
+                    <i class="drapeaux">USA</i>
+                    <p class="niveau">Bilingue</p>
+                </span>
+
+                <span class="langues">
+                    <i class="drapeaux">Espagne</i>
+                    <p class="niveau">Niveau intermédiaire</p>
+                </span>
+
+            </div>
+            <div><a href="" class="btn btn-primary py-2 px-5 rounded-pill shadow" id="embauche">ON T'EMBAUCHE !</a></div>
+            <div id="pdf"><a href="" >Télécharger mon CV en PDF</a></div>
         </div>
-        <div id="section-langues" class="d-flex flex-row">
-            <span class="langues mx-1 mx-md-4">
-                <i class="drapeaux">Brésil</i>
-                <p class="descpritions">Langue maternelle</p>
-            </span>
-            <span class="langues mx-1 mx-md-4">
-                <i class="drapeaux">France</i>
-                <p class="descpritions">Langue maternelle</p>
-            </span>
-            <span class="langues mx-2 mx-md-4">
-                <i class="drapeaux">USA</i>
-                <p class="descpritions">Bilingue</p>
-            </span>
-            <span class="langues">
-                <i class="drapeaux">Espagne</i>
-                <p class="descpritions">Niveau intermédiaire</p>
-            </span>
-        </div>
-        <a href="" class="btn btn-primary py-2 px-5 rounded-pill shadow" id="embauche">ON T'EMBAUCHE !</a>
-        <a href="" id="pdf">Télécharger mon CV en PDF</a>
     </div>
 
 
