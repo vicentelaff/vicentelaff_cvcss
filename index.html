@@ -12,10 +12,41 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
     <script src="https://kit.fontawesome.com/7cf19be512.js" crossorigin="anonymous"></script>
-    <title>Vicente L. - Portfolio</title>
+    <title>Vicente L. - CV CSS</title>
 </head>
 
 <body>
+    <!-- ======================= STICKY NAVBAR ======================= -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid col-xl-8">
+            <a class="navbar-brand" href="#container-metier">Vicente L.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-lg-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#container-metier">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#container-experiences">Expériences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#container-competences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#container-education">Formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-formations">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- ======================= SECTION METIER ======================= -->
     <div id="container-metier"
         class="d-flex flex-column flex-xl-row justify-content-center align-items-center mx-auto col-11">
@@ -35,7 +66,7 @@
 
     <!-- ======================= SECTION EXPERIENCES ======================= -->
     <div id="container-experiences" class="d-flex flex-column align-items-center col-12">
-        <h1 class="titre-section text-center pt-md-5">EXPÉRIENCES PERTINENTES</h1>
+        <h1 class="titre-section text-center pt-5">EXPÉRIENCES PERTINENTES</h1>
         <div id="carousel-experiences" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel-experiences" data-bs-slide-to="0" class="active"
@@ -73,39 +104,37 @@
     </div>
 
     <!-- ======================= SECTION COMPETENCES ======================= -->
-    <h1 class="titre-section text-center pt-md-5">COMPÉTENCES</h1>
-    <div id="container-competences" class="d-flex justify-content-evenly text-center col-12 col-xl-8">
-        <!-- <div class="competences text-center mt-4">
-            <div class="icones-competences">
+    <div id="container-competences" class="d-flex flex-column align-items-center text-center col-12">
+        <h1 id="section-competences" class="titre-section pt-5">COMPÉTENCES</h1>
+        <div class="d-flex flex-column flex-wrap liste-competences justify-content-center col-12 col-lg-8">
+            <span class="icones-competences">
                 <img src="./images/Icon awesome-adobe.png" class="img-competences">
                 <p class="descriptions">Pack Adobe:<br>After Effects, XD.</p>
-            </div>
-            <div class="icones-competences">
+            </span>
+            <span class="icones-competences">
                 <img src="./images/Icon awesome-bootstrap.png" class="img-competences">
                 <p class="descriptions">Fondamentaux:<br>HTML/CSS, BootStrap,<br> ergonomie UI/UX.</p>
-            </div>
-            <div class="icones-competences">
+            </span>
+            <span class="icones-competences">
                 <img src="./images/Icon awesome-wordpress.png" class="img-competences">
                 <p class="descriptions">CMS e-commerce:<br>wordpress/<br>prestashop, dev wordpress<br>/woocommerce, dev
                     <br>Prestashop.</p>
-            </div>
-        </div>
-        <div class="competences text-center mt-4">
-            <div class="icones-competences">
-                <img src="./images/Icon awesome-php.png" class="img-competences">
-                <p class="descriptions">PHP:<br>PHP/Mysql orienté<br> objet, Framework<br> PHP.</p>
-            </div>
-            <div class="icones-competences">
-                <img src="./images/Icon awesome-python.png" class="img-competences">
-                <p class="descriptions">Logique informatique:<br>Algorithmie, Python,<br> design pattern/UML.</p>
-            </div>
-            <div class="icones-competences">
+            </span>
+            <span class="icones-competences">
                 <img src="./images/Icon ionic-logo-javascript.png" class="img-competences">
                 <p class="descriptions">Mobile:<br>JavaScript/Jquery, react<br> native/react.js, node.js/<br>express.js.
                 </p>
-            </div>
-        </div> -->
-    </div>
+            </span>
+            <span class="icones-competences">
+                <img src="./images/Icon awesome-python.png" class="img-competences">
+                <p class="descriptions">Logique informatique:<br>Algorithmie, Python,<br> design pattern/UML.</p>
+            </span>
+            <span class="icones-competences">
+                <img src="./images/Icon awesome-php.png" class="img-competences">
+                <p class="descriptions">PHP:<br>PHP/Mysql orienté<br> objet, Framework<br> PHP.</p>
+            </span>
+        </div>
+
     </div>
 
     <!-- ======================= SECTION EDUCATION ======================= -->
@@ -141,8 +170,19 @@
                 </span>
 
             </div>
-            <div><a href="" class="btn btn-primary py-2 px-5 rounded-pill shadow" id="embauche">ON T'EMBAUCHE !</a></div>
-            <div id="pdf"><a href="" >Télécharger mon CV en PDF</a></div>
+            <div><a href="" class="btn btn-primary py-2 px-5 rounded-pill shadow" id="embauche" data-bs-toggle="modal"
+                    data-bs-target="#businesscard">ON T'EMBAUCHE !</a>
+            </div>
+            <div id="pdf"><a href="">Télécharger mon CV en PDF</a></div>
+            <div class="modal fade" id="businesscard" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="./images/Vicente L..png" alt="">
+                        <button type="button" class="btn-close position-absolute end-0 top-0" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

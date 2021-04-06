@@ -1,8 +1,15 @@
 Questions
 
+Navbar:
+- Bug micro margin top (peut etre inspecteur)
+- Changer "active"
+
 Section expériences:
 - Bug carousel déplace la page
 
 Section compétences:
 - Comment rentrer mes icones a moi à la place des img
-- Comment réorganiser en 3x3 au lieu de 2x4
+- Bug responsive
+
+GIT:
+- Prends pas en compte le bg
