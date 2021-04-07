@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../images/bg_mobile.png);
+    background-image: url(bg_mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -73,7 +73,7 @@ p {
 
 @media only screen and (min-width: 1199px) {
     body {
-        background-image: url(../images/fixed_bg.png);
+        background-image: url(fixed_bg.png);
         background-position: top;
     }
 
