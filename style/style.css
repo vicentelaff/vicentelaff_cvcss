@@ -39,7 +39,7 @@ p {
     color: white;
 }
 
-.titre-section{
+.titre-section {
     margin-top: 2rem;
 }
 
@@ -97,7 +97,7 @@ p {
     background: linear-gradient(180deg, rgba(113, 126, 195, 1) 0%, rgb(43, 51, 92) 100%);
 } */
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
@@ -107,7 +107,7 @@ p {
 /* =========================== SECTION METIERS =========================== */
 
 #container-metier {
-    height: 52rem;
+    height: 45rem;
 }
 
 #section-icones-metier {
@@ -120,35 +120,36 @@ p {
 }
 
 @media only screen and (min-width: 767px) {
-    #container-metier {
-        height: 65rem;
-    }
 
     #section-icones-metier {
         font-size: 10rem;
-    }
-}
-
-@media only screen and (min-width: 991px) {
-    #container-metier {
-        height: 110vh;
     }
 }
 
 @media only screen and (min-width: 1199px) {
+    #container-metier {
+        height: 50rem;
+    }
+
     #section-icones-metier {
         font-size: 10rem;
     }
 
-    h1 {
+    .section-metier h1 {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 2000px) {
+    #container-metier {
+        height: 92rem;
     }
 }
 
 /* =========================== SECTION EXPERIENCES =========================== */
 
 #container-experiences {
-    height: 55rem;
+    height: 45rem;
     background: #353535;
 }
 
@@ -159,56 +160,72 @@ p {
 
 
 @media only screen and (min-width: 767px) {
-    #container-experiences {
-        height: 68rem;
+    #carousel-experiences {
+        width: 75%;
+    }
+
+    .carousel-caption h4 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
     }
 }
 
 @media only screen and (min-width: 991px) {
-    #container-experiences {
-        height: 92rem;
-    }
-
-
-    .carousel-caption>h4 {
-        font-size: 3rem;
-    }
-
-    .carousel-caption>p {
-        font-size: 1.5rem;
+    #carousel-experiences {
+        width: 60%;
     }
 }
 
 @media only screen and (min-width: 1199px) {
     #container-experiences {
-        height: 55rem;
+        height: 52rem;
     }
 
     #carousel-experiences {
         width: 50%;
     }
+
 }
 
+@media (min-width: 2000px) {
+    #container-experiences {
+        height: 95rem;
+    }
+
+    #carousel-experiences {
+        width: 65%;
+    }
+
+    .carousel-caption h4 {
+        font-size: 4rem;
+    }
+
+    .carousel-caption p {
+        font-size: 2rem;
+    }
+}
 
 
 /* =========================== SECTION COMPETENCES =========================== */
 
 #container-competences {
-    height: 55rem;
+    height: 45rem;
 }
 
 #container-competences p {
     font-size: 0.8rem;
 }
 
-.liste-competences{
-    height: 60vh;
+.liste-competences {
+    height: 30rem;
 }
 
 .img-competences {
     margin-bottom: 2vw;
-    /* margin-top: 4vw; */
-    width: 13vw;
+    width: 8vw;
 }
 
 .icones-competences {
@@ -218,43 +235,49 @@ p {
 @media only screen and (min-width: 767px) {
 
     #container-competences p {
-        font-size: 1rem;
+        font-size: 1.5vw;
     }
 
-    #container-competences {
-        height: 65rem;
+    .liste-competences {
+        height: 30rem;
     }
 
-    .liste-competences{
-        height: 90vh;
+    .img-competences {
+        margin-bottom: 1.5vw;
+        width: 6vw;
     }
 }
 
 @media only screen and (min-width: 991px) {
     #container-competences p {
-        font-size: 1.2rem;
+        font-size: 1.2vw;
     }
 
-    #container-competences {
-        height: 92rem;
+    .img-competences {
+        margin-bottom: 1vw;
+        width: 4vw;
     }
 }
 
 
 @media only screen and (min-width: 1199px) {
-    #container-competences p {
-        font-size: 1.4rem;
+    #container-competences {
+        height: 52rem;
     }
 
-    .img-competences {
-        margin-bottom: 1vw;
-        width: 6vw;
+    .liste-competences {
+        height: 40rem;
     }
 
+}
 
+@media (min-width: 2000px) {
+    #container-competences {
+        height: 95rem;
+    }
 
-    .liste-competences{
-        height: 120vh;
+    .liste-competences {
+        height: 80rem;
     }
 }
 
@@ -262,7 +285,7 @@ p {
 
 #container-education {
     padding-top: 4vh;
-    height: 55rem;
+    height: 45rem;
     background: rgb(119, 66, 26);
     background: linear-gradient(0deg, rgb(66, 38, 17) 0%, rgba(238, 132, 52, 1) 100%);
 }
@@ -272,17 +295,23 @@ p {
 }
 
 .formations {
-    height: 10vh;
+    height: 15vw;
     margin-bottom: 1rem;
+}
+
+.drapeaux {
+    width: 10vw;
+    margin-bottom: 0.5rem;
+}
+
+.niveau {
+    font-size: 0.7rem;
 }
 
 #section-langues {
     margin-bottom: 4rem;
 }
 
-.niveau {
-    font-size: 0.7rem;
-}
 
 #embauche {
     font-family: 'Montserrat', sans-serif;
@@ -313,12 +342,11 @@ p {
 
 @media only screen and (min-width: 767px) {
     #container-education {
-        height: 65rem;
+        height: 58rem;
     }
 
     .formations {
-        height: 20vh;
-        margin-bottom: 1rem;
+        height: 20vw;
     }
 
     .niveau {
@@ -332,7 +360,7 @@ p {
 
 @media only screen and (min-width: 991px) {
     #container-education {
-        height: 87rem;
+        height: 65rem;
     }
 
     .niveau {
@@ -346,16 +374,17 @@ p {
 
 @media only screen and (min-width: 1199px) {
     #container-education {
-        height: 90rem;
+        height: 75rem;
+    }
+
+    .drapeaux {
+        width: 5vw;
     }
 
     .titres {
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
 
-    .niveau {
-        font-size: 1.3vw;
-    }
 
     #embauche {
         font-size: 2rem;
@@ -363,5 +392,37 @@ p {
 
     #pdf {
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    #container-education {
+        height: 90rem;
+    }
+
+    .formations {
+        height: 14vw;
+        margin-bottom: 3rem;
+    }
+
+    #section-langues {
+        margin-top: 7rem;
+    }
+
+    .drapeaux {
+        width: 4vw;
+    }
+
+    .niveau {
+        font-size: 1.5rem;
+    }
+
+    #embauche {
+        margin-top: 5rem;
+        font-size: 3.5rem;
+    }
+
+    #pdf {
+        font-size: 1.5rem;
     }
 }

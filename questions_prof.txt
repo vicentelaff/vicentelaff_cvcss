@@ -2,14 +2,10 @@ Questions
 
 Navbar:
 - Bug micro margin top (peut etre inspecteur)
-- Changer "active"
+- Changer "active" selon section sélectionnée
 
 Section expériences:
-- Bug carousel déplace la page
-
-Section compétences:
-- Comment rentrer mes icones a moi à la place des img
-- Bug responsive
+- Microbug carousel déplace la page
 
 GIT:
 - Prends pas en compte le bg
